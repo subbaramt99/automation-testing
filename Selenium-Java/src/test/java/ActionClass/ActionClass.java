@@ -30,9 +30,6 @@ public class ActionClass {
         
         //driver.findElement(By.xpath("//button[contains(text(), 'Mouse')]"));
         
-       
-        
-        
         
 //        WebElement hover = driver.findElement(By.xpath("//button[contains(text(), 'Mouse')]"));
 //        
@@ -49,11 +46,11 @@ public class ActionClass {
         
        driver.switchTo().frame(3);
         
-       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); 
+       
        WebElement source = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@id = 'gallery']//li[1]//img")));
-        
-        
-        WebElement target = driver.findElement(By.id("trash"));
+         
+       WebElement target = driver.findElement(By.id("trash"));
         
         
         action.dragAndDrop(source, target).perform();
