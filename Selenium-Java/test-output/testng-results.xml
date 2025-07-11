@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="11" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-10T20:43:23 IST" name="SampleTestSuite" finished-at="2025-07-10T20:43:23 IST" duration-ms="171">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTest.test3(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" name="test3" class="Test_with_TestNG.LoginTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.test2(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" name="test2" class="Test_with_TestNG.LoginTest"/>
+        <method signature="LoginTest.test3(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" name="test3" class="Test_with_TestNG.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-07-10T20:43:23 IST" name="LoginTest" finished-at="2025-07-10T20:43:23 IST" duration-ms="171">
+      <class name="Test_with_TestNG.LoginTest">
+        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test2" data-provider="address" finished-at="2025-07-10T20:43:23 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test2" data-provider="address" finished-at="2025-07-10T20:43:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vellore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3241]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test2" data-provider="address" finished-at="2025-07-10T20:43:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirunalvelli]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[578855]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test3" data-provider="credentials" finished-at="2025-07-10T20:43:23 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anadh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test3" data-provider="credentials" finished-at="2025-07-10T20:43:23 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3241]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3(java.lang.String,java.lang.String)[pri:0, instance:Test_with_TestNG.LoginTest@7f9e1534]" started-at="2025-07-10T20:43:23 IST" name="test3" data-provider="credentials" finished-at="2025-07-10T20:43:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[578855]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Test_with_TestNG.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- SampleTestSuite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="seleniumTest">
+  <test name="FireFoxFunctionalTests">
+    <parameter name="browser" value="*firefox ${firefoxDefaultPath}"/>
+    <packages>
+      <package name="src.test.java.LoginTest.loginTest" />
+    </packages>
+  </test>
+</suite>
